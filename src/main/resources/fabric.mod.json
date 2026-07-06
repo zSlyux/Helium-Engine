@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "vke",
+	"version": "${version}",
+	"name": "VKE Shader Engine",
+	"description": "Motor grafico Vulkan con soporte de shader packs SPIR-V.",
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.vke.client.VkeClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "vke.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}

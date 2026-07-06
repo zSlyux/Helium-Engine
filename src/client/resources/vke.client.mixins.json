@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.vke.client.mixin",
+	"plugin": "com.vke.client.mixin.VkeMixinPlugin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"WindowMixin",
+		"RenderSystemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
